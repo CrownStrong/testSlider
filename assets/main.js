@@ -31,7 +31,6 @@ $(()=>{
     $('.form__buy').on('click', ev=>{
         ev.preventDefault();
         const card = $('.modal__content');
-        console.log(card);
         card.addClass('rotate');
         setTimeout(()=>{
             card.removeClass('rotate');
