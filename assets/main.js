@@ -53,7 +53,7 @@ function sliderInit(price){
     generateLabels();
 }
 async function getPrice(){
-    return 0.9349;
+    // return 0.9349;
     const response = await fetch('https://eodhd.com/api/eod/EUR.FOREX?filter=last_close&api_token=demo&fmt=json');
     const json = await response.json();
     return json;
